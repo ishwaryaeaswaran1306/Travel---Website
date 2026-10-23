@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+}
+h1,p{
+    color: black;
+    text-align: center;
+    position: relative;
+    left:72x;
+    top:10px;
+
+}
+img{
+    width:700px;
+    height:700px ;
+    position: relative;
+}

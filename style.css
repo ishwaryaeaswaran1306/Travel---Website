@@ -1,0 +1,162 @@
+header{
+    background-color: rgb(148, 51, 34);
+    text-align:center ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top:12px;
+    padding-bottom: 12px;
+}
+body{
+    background-color: antiquewhite;
+}
+nav a{
+    transition: 0.3s;
+}
+nav a:hover{
+    color: chocolate;
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+}
+.h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.search{
+    padding: 12px;
+    width:300px;
+    padding: 12px;
+    border:none;
+    border-radius: 50px;
+}
+
+h3{
+    text-align: center;
+}
+.sidebar{
+    width: 280px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+}
+.container{
+    padding: 20px;
+    margin: 20px;
+    background-color: bisque;
+    border-radius:50px;
+    text-align: center;
+    display:flex;
+    gap:50px;
+    align-items: flex-start;
+}
+.content{
+    flex: 1;
+}
+.content h4{
+    text-align: left;
+}
+.francecard,
+.spaincard,
+.nycard,
+.italycard,
+.turkeycard{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 50px;
+    margin: 30px 0;
+    gap: 20px;
+    transition: 0.3s;
+}
+
+.francecard:hover,
+.spaincard:hover,
+.nycard:hover,
+.italycard:hover,
+.turkeycard:hover{
+    transform: scale(1.05);
+
+}
+
+.sidebar{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 75px;
+      
+}
+
+.box1,.box2,.box3{
+    background-color: beige;
+    min-height: 200px;
+    padding: 20px;
+    border-radius: 50px;
+    width: 75%;
+    height:200px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* instead of center */
+    position: static; 
+}
+.box1,.box2,.box3{
+    text-align: left;
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.box1:hover,.box2:hover,.box3:hover{
+    transform: scale(1.05);
+}
+
+.francecard img,
+.spaincard img,
+.nycard img,
+.italycard img,
+.turkeycard img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.francecard img:hover,
+.spaincard img:hover,
+.nycard img:hover,
+.italycard img:hover,
+.turkeycard img:hover{
+    transform: scale(1.05);
+}
+.details{
+    position:static;
+    text-align: left;
+    flex: 1;
+    font-size: 16px;
+  
+}
+
+h4{
+    margin: 0 0 8px 0;
+    text-align: center;
+}
+.why{
+    text-align: left;
+    margin: 0 0 8px 0;
+    font-size: 14px;
+ 
+}
+footer{
+     background-color: brown;
+     height: 90px;
+     position: relative;
+     top: 25px;
+ }
+ p{
+            text-align: center;
+            color: blanchedalmond;
+             position: relative;
+            top: 25px;
+        }

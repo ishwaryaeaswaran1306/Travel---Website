@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:antiquewhite;
+            color: brown;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        header,footer{
+    background-color: rgb(148, 51, 34);
+    text-align:center ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100px;
+    padding-top:12px;
+    padding-bottom: 12px;
+}
+
+header h1,
+footer p{
+            text-align: center;
+            color: blanchedalmond;
+             position: relative;
+            top: 25px;
+        }
+    
+    
+        label{
+            display: block;
+            margin-bottom:9px;
+        }
+        input,select,textarea,button{
+            background-color: blanchedalmond;
+            color: brown;
+            margin-bottom: 20px;
+            border: 2px solid burlywood;
+        }
+        h3{
+            transition: 0.3s;
+        }
+        h3:hover{
+            transform: scale(1.01);
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1> Contact Us</h1>
+</header>
+    <h3> contact number:xxxxxxxxxx </h3>
+        <h3>email:boradestinations@email.com</h3>
+        <h3>ig:bora_destinations</h3>
+        <h2>For any other queries:</h2>
+        <form id="contactForm">
+        <label for="name">Name:</label>
+         <input type="text" id="name" placeholder="Enter your name" required>
+         <br><br>
+         <label for="concern">Concern:</label>
+        <select id="concern" name="concern">
+    <option value="">Select a concern</option>
+    <option value="booking">Booking Issues</option>
+    <option value="payment">Payment Problems</option>
+    <option value="refund">Refund Request</option>
+    <option value="cancellation">Cancellation</option>
+    <option value="travel_package">Travel Package Complaint</option>
+    <option value="customer_service">Customer Service</option>
+    <option value="visa">Visa Assistance</option>
+    <option value="hotel">Hotel Issues</option>
+    <option value="transport">Transportation Issues</option>
+    <option value="website">Website Problems</option>
+    <option value="other">Other</option>
+    </select><br>
+    <br>
+    <label for="message">Write your concern:</label>
+<textarea id="message" rows="4" cols="35" placeholder="Write your concern here..." required></textarea>
+<br><br>
+        <button type="submit">Send Inquiry</button>
+        </form>
+        <footer>
+            <p>&copy; bora destinations. All Rights Reserved.</p>
+        </footer>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
